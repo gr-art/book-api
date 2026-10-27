@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: book-api
-          image: gr/book-api
+          image: gr-art/book-api
           ports:
             - containerPort: 8080
           resources:
